@@ -12,14 +12,14 @@ const char* password = "your-password";  // Wifi password, if any
 
 // Values for Emoncms
 const char* host = "192.168.1.3";
-String apikey = "b0660d27cc88ee1a916b7bbb4b9f8baf";
+String apikey = "<api>";
 String nodeid = "24";
 String url = "/emoncms/input/post.json?apikey="+apikey+"&node="+nodeid+"&csv=";
 
 // Remote Emoncms 
 const char*  remotedomain="emoncms.org";
 String remoteemoncmspath = "emoncms";
-String remoteapikey = "bdd96271de3ff345c087afa276d1a619";
+String remoteapikey = "<api>";
 String remotenodeid = "24";
 String remoteurl = "/input/post.json?node="+nodeid+"&csv=";
 
